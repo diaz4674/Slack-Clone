@@ -1,9 +1,9 @@
 import express from "express";
-import { ApolloServer, gql } from "apollo-server-express";
-
+import { ApolloServer } from "apollo-server-express";
+import sequelize from "sequelize";
 import typeDefs from "./schema";
 import resolvers from "./resolvers";
-
+import models from "./models";
 // const myGraphQLSchema  = // ... define or import your schema here!
 const PORT = 3000;
 
