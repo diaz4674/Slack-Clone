@@ -1,6 +1,5 @@
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
-import sequelize from "sequelize";
 import typeDefs from "./schema";
 import resolvers from "./resolvers";
 import models from "./models";
