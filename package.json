@@ -19,9 +19,13 @@
   },
   "homepage": "https://github.com/diaz4674/Slack-Clone#readme",
   "dependencies": {
+    "apollo-server-express": "^2.16.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.18",
     "nodemon": "^2.0.4"
   }
 }
