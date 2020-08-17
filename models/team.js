@@ -9,6 +9,7 @@ export default (sequelize, DataTypes) => {
       unique: true,
     },
     password: DataTypes.STRING,
+    members: DataTypes.STRING,
   });
 
   Team.associate = (models) => {

@@ -2,7 +2,6 @@ import Sequelize from "sequelize";
 
 const sequelize = new Sequelize("slack", "postgres", "number1", {
   dialect: "postgres",
-  logging: true,
 });
 
 const modelDefiners = [
@@ -19,6 +18,6 @@ Object.keys(modelDefiners).forEach((modelName) => {
     modelDefiners[modelName].associate(models);
   }
 });
-sequelize.sync({ force: true });
+
 // We export the sequelize connection instance to be used around our app.
 module.exports = sequelize;
